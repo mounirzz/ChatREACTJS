@@ -6,7 +6,6 @@
   padding: 0 5%;
   line-height: 45px;
 }
-
 .logo-gather-demo-edit-wrapper ul {
   display: block;
   width: 100%;
@@ -49,7 +48,6 @@
 .logo-gather-demo-wrapper .right-side *{
   pointer-events: none;
 }
-
 @@media screen and (max-width: 414px) {
   .exhibition-details-demo {
     overflow: hidden;
