@@ -12,7 +12,6 @@ export const fetchChangeModuleStatus = createApi(`${path}/${prefix}/resource/upd
 export const fetchModuleUpdateDetail = createApi(`${path}/${prefix}/resource/update`, option) // Modifier les détails du module
 export const fetchModuleAdd = createApi(`${path}/${prefix}/resource/save`, option) // Nouveau module
 export const fetchButtonList = createApi(`${path}/${prefix}/resource/button/list`, option) // Bouton liste de permission
-
 // Gestion des rôles
 export const fetchRoleList = createApi(`${path}/${prefix}/role/list`, option) // Liste de rôle
 export const fetchRoleAdd = createApi(`${path}/${prefix}/role/save`, option) // Enregistrer le rôle
@@ -21,7 +20,6 @@ export const fetchRoleDetail = createApi(`${path}/${prefix}/role/detail`, option
 export const fetchRoleDelete = createApi(`${path}/${prefix}/role/delete`, option) // Supprimer le rôle
 export const fetchModuleListInRole = createApi(`${path}/${prefix}/role/resList`, option) // Module sélectionné
 export const fetchUpdateRoleRes = createApi(`${path}/${prefix}/role/updateRes`, option) // Mettre à jour les modules sélectionnés
-
 export const fetchRoleDeletePeople = createApi(`${path}/${prefix}/user/removeRole`, option)
 export const fetchUpdateButton = createApi(`${path}/${prefix}/role/updateButton`, option)
 export const fetchTreeList = createApi(`${path}/${prefix}/role/resTree`, option)

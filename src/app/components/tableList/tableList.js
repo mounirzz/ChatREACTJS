@@ -5,7 +5,6 @@ export default class tableList extends Component {
 componentDidMount() {
   this.tabeWidthAdaptive()
 }
-
 componentWillUnmount(){
   clearInterval(this.t)
 }
