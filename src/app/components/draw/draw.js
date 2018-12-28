@@ -23,7 +23,6 @@ export default class Drawer extends Component {
       // drawerSizeClassList: ['modal-base', 'modal-sm', 'modal-lg'],
     }
   }
-
   componentWillMount() {
     document.body.classList.add('body-drawer')
   }
